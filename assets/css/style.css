@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/.png);
+    background-image: url(../img/ppbgd.png);
     background-repeat: no-repeat;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 15px;
@@ -27,6 +27,7 @@ h4 {
 .nav {
     overflow: hidden;
     background-color: #333;
+    background-color: rgba(46, 44, 44, 0.932);
 }
 
 .nav a {
@@ -36,6 +37,7 @@ h4 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.4s ease;
 }
 
 .nav a:hover {
@@ -58,7 +60,7 @@ img {
     text-align: center;
     padding: 20px;
     color: #fff;
-    background-color: rgb(236, 35, 35);
+    background-color: rgba(236, 35, 35, 0.932);
 }
 
 div.gallery {
@@ -76,6 +78,7 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+    background-color: #fff;
 }
 
 div.desc {
@@ -93,7 +96,7 @@ div.desc {
     padding-left: 20px;
     border-radius: 10px;
     color: #fff;
-    background-color: rgb(16, 16, 31);
+    background-color: rgba(46, 44, 44, 0.932);
 }
 
 /* MEDIA QUERIES */

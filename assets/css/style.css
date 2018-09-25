@@ -1,6 +1,7 @@
 body {
     background-image: url(../img/ppbgd.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 15px;
     text-align: center;
@@ -101,9 +102,7 @@ div.desc {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+
 }
 
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Paw Patrol Character Index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Paw Patrol Character Index</h1>
+            <img src="assets/img/dogs.png">
+
+            <h4>Click a character to learn an interesting fact about them!</h4>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a target="_blank" href="http://paw-patrol.wikia.com/wiki/PAW_Patrol_Wiki">Paw Patrol Fan Wiki</a>
+            <a target="_blank" href="https://www.courtneyolivia.com/about.html">About Creator</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="company-info">
+                    <p>Please feel free to contact me with any questions and I will be sure to address 
+                    your questions as soon as possible!</p>
+                </div>
+                <div class="contact">
+
+                    <!-- @TODO - validation -->
+                    <form id="contactForm">
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" required>
+                        </p>
+                        <p>
+                            <label>Company</label>
+                            <input type="text" name="company" id="company">
+                        </p>
+                        <p>
+                            <label>Email Address</label>
+                            <input type="text" name="email" id="email" required>
+                        </p>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone" id="phone" required>
+                        </p>
+                        <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" rows="5" id="message"></textarea>
+                        </p>
+                        <p class="full">
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            &copy; copyright 2018 Courtney Olivia
+        </div>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
